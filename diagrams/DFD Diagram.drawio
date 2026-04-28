@@ -1,0 +1,341 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="YJQqrn2H927L2FJL1-Lh">
+    <mxGraphModel dx="1678" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MF1kgfmmu_acx22ZzmX--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--1" target="MF1kgfmmu_acx22ZzmX--2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--13" value="Учетные данные (email, password)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--12">
+          <mxGeometry x="-0.4773" relative="1" as="geometry">
+            <mxPoint x="210" y="-39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--1" target="MF1kgfmmu_acx22ZzmX--3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="220" />
+              <mxPoint x="430" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--15" value="Запрос списка тестов (subjectId)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--14">
+          <mxGeometry x="-0.0276" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--1" target="MF1kgfmmu_acx22ZzmX--4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--17" value="Начало попытки (testId)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--16">
+          <mxGeometry x="0.1366" relative="1" as="geometry">
+            <mxPoint x="78" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="380" />
+              <mxPoint x="480" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--19" value="Ответы (taskId, answer)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--18">
+          <mxGeometry x="0.4444" y="1" relative="1" as="geometry">
+            <mxPoint x="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70.00448275862081" y="270" as="sourcePoint" />
+            <mxPoint x="1354.97" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="270" />
+              <mxPoint x="50" y="510" />
+              <mxPoint x="1355" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--21" value="Запрос статистики (subjectId)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--20">
+          <mxGeometry x="0.1717" y="1" relative="1" as="geometry">
+            <mxPoint x="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--1" value="User&lt;br&gt;(Ученик/Преподаватель)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--2" target="MF1kgfmmu_acx22ZzmX--6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="40" />
+              <mxPoint x="740" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--23" value="Проверка пользователя" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--22">
+          <mxGeometry x="0.4165" y="1" relative="1" as="geometry">
+            <mxPoint x="-49" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--2" value="P1: Обработка авторизации&lt;br&gt;AuthController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--3" target="MF1kgfmmu_acx22ZzmX--7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="210" />
+              <mxPoint x="710" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--31" value="Запрос тестов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--30">
+          <mxGeometry x="0.1859" y="1" relative="1" as="geometry">
+            <mxPoint x="-22" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--35" value="Список тестов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--34">
+          <mxGeometry x="0.0355" y="-3" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--3" target="MF1kgfmmu_acx22ZzmX--11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--37" value="Test created" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--36">
+          <mxGeometry x="0.3348" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--3" value="P2: Управление тестами&lt;br&gt;StudentTestService&lt;br&gt;TeacherTestService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--38" value="Создание attempt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry x="0.0833" relative="1" as="geometry">
+            <mxPoint x="650" y="400.0044827586207" as="sourcePoint" />
+            <mxPoint x="890" y="400.0044827586207" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="399.97" />
+              <mxPoint x="760" y="399.97" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--4" target="MF1kgfmmu_acx22ZzmX--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--40" value="Сохранение ответов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--39">
+          <mxGeometry x="0.0583" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--4" target="MF1kgfmmu_acx22ZzmX--5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="450" />
+              <mxPoint x="1270" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--56" value="Завершение попытки (attemptId)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--55">
+          <mxGeometry x="-0.242" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--4" value="P3: Прохождение теста&lt;br&gt;StudentAttemptService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="340" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--5" target="MF1kgfmmu_acx22ZzmX--9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="330" />
+              <mxPoint x="1250" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--46" value="Запрос статистики" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--45">
+          <mxGeometry x="0.099" y="-2" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="360" as="sourcePoint" />
+            <mxPoint x="1010" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--48" value="Запрос попыток" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--47">
+          <mxGeometry x="0.2766" relative="1" as="geometry">
+            <mxPoint x="41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--5" target="MF1kgfmmu_acx22ZzmX--9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1480" y="280" />
+              <mxPoint x="1480" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--58" value="Пересчет статистики" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--57">
+          <mxGeometry x="-0.0744" y="2" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--5" value="P4: Формирование статистики&lt;br&gt;StudentStatisticsService&lt;br&gt;RecommendationsService" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="345" width="280" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--6" target="MF1kgfmmu_acx22ZzmX--2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="20" />
+              <mxPoint x="830" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--27" value="User data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--26">
+          <mxGeometry x="-0.1477" y="-1" relative="1" as="geometry">
+            <mxPoint x="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--6" value="D1: PostgreSQL&lt;br&gt;user_account&lt;br&gt;user_session" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="889.9999999999995" y="240" as="sourcePoint" />
+            <mxPoint x="650" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--33" value="Test data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--32">
+          <mxGeometry x="0.2137" y="-2" relative="1" as="geometry">
+            <mxPoint x="26" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--7" value="D2: PostgreSQL&lt;br&gt;test&lt;br&gt;task_item&lt;br&gt;test_task" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.999;entryY=0.146;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--8" target="MF1kgfmmu_acx22ZzmX--4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--42" value="Attempt data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--41">
+          <mxGeometry x="-0.0411" y="2" relative="1" as="geometry">
+            <mxPoint x="5" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="390" as="sourcePoint" />
+            <mxPoint x="1230" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--52" value="Attempt history" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--51">
+          <mxGeometry x="-0.1571" y="2" relative="1" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--8" value="D3: PostgreSQL&lt;br&gt;&lt;div&gt;attempt&lt;br&gt;user_answer&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="340" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="200" as="sourcePoint" />
+            <mxPoint x="1370" y="345" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1370" y="200" />
+              <mxPoint x="1370" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--50" value="Statistics data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--49">
+          <mxGeometry x="-0.1232" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--9" value="D4: PostgreSQL&lt;br&gt;user_stats&lt;br&gt;recommendation" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="140" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--11" target="MF1kgfmmu_acx22ZzmX--3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--29" value="Создание теста (test, tasks)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--28">
+          <mxGeometry x="-0.3043" y="-1" relative="1" as="geometry">
+            <mxPoint x="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--11" value="Teacher&lt;br&gt;(Преподаватель)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.706;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--2" target="MF1kgfmmu_acx22ZzmX--1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="50" />
+              <mxPoint x="150" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--25" value="JWT Token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--24">
+          <mxGeometry x="-0.2151" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.861;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--4" target="MF1kgfmmu_acx22ZzmX--1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="176" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--44" value="Результаты (score, answers)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--43">
+          <mxGeometry x="-0.2425" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MF1kgfmmu_acx22ZzmX--5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="271" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1310" y="490" />
+              <mxPoint x="80" y="490" />
+              <mxPoint x="80" y="271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MF1kgfmmu_acx22ZzmX--54" value="Статистика и рекомендации" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MF1kgfmmu_acx22ZzmX--53">
+          <mxGeometry x="-0.192" y="2" relative="1" as="geometry">
+            <mxPoint x="61" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

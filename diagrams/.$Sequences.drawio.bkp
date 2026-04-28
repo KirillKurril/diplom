@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-11-26T12:00:00Z" agent="GPT-5.1" version="24.0.0">
+  <diagram id="SequenceDiagram" name="Sequence - Passing Assigned Test" compressed="false">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Participants (lifelines as tall rectangles) -->
+
+        <!-- Student -->
+        <mxCell id="lifeline_student" value="Ученик" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="110" height="420" as="geometry"/>
+        </mxCell>
+
+        <!-- Mobile App -->
+        <mxCell id="lifeline_mobile" value="Мобильное приложение" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="60" width="140" height="420" as="geometry"/>
+        </mxCell>
+
+        <!-- Backend API -->
+        <mxCell id="lifeline_backend" value="Backend / REST API" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="60" width="150" height="420" as="geometry"/>
+        </mxCell>
+
+        <!-- TestService -->
+        <mxCell id="lifeline_testservice" value="TestService" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="60" width="120" height="420" as="geometry"/>
+        </mxCell>
+
+        <!-- StatisticsService -->
+        <mxCell id="lifeline_stats" value="StatisticsService" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="820" y="60" width="150" height="420" as="geometry"/>
+        </mxCell>
+
+        <!-- Database -->
+        <mxCell id="lifeline_db" value="PostgreSQL (БД)" style="shape=cylinder;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="160" width="120" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Messages (top → bottom, время сверху вниз) -->
+
+        <!-- 1. Ученик открывает список назначенных тестов -->
+        <mxCell id="msg1" value="Открыть список&#10;назначенных тестов" style="endArrow=block;html=1;" edge="1" parent="1" source="lifeline_student" target="lifeline_mobile">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="120" as="sourcePoint"/>
+            <mxPoint x="300" y="120" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 2. Мобильное приложение запрашивает список у backend -->
+        <mxCell id="msg2" value="GET /assigned-tests" style="endArrow=block;html=1;" edge="1" parent="1" source="lifeline_mobile" target="lifeline_backend">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="150" as="sourcePoint"/>
+            <mxPoint x="510" y="150" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 3. Backend читает список назначенных тестов из БД -->
+        <mxCell id="msg3" value="SELECT назначенные тесты" style="endArrow=block;html=1;" edge="1" parent="1" source="lifeline_backend" target="lifeline_db">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="180" as="sourcePoint"/>
+            <mxPoint x="1090" y="180" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 4. БД возвращает список -->
+        <mxCell id="msg4" value="Результат выборки" style="dashed=1;endArrow=block;html=1;" edge="1" parent="1" source="lifeline_db" target="lifeline_backend">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="210" as="sourcePoint"/>
+            <mxPoint x="510" y="210" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 5. Backend возвращает список в мобильное приложение -->
+        <mxCell id="msg5" value="Список назначенных тестов" style="dashed=1;endArrow=block;html=1;" edge="1" parent="1" source="lifeline_backend" target="lifeline_mobile">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="240" as="sourcePoint"/>
+            <mxPoint x="300" y="240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 6. Ученик выбирает тест и нажимает &quot;Начать&quot; -->
+        <mxCell id="msg6" value="Начать выбранный тест" style="endArrow=block;html=1;" edge="1" parent="1" source="lifeline_student" target="lifeline_mobile">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="270" as="sourcePoint"/>
+            <mxPoint x="300" y="270" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 7. Мобильное приложение запрашивает структуру теста -->
+        <mxCell id="msg7" value="GET /test/{id}" style="endArrow=block;html=1;" edge="1" parent="1" source="lifeline_mobile" target="lifeline_backend">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="300" as="sourcePoint"/>
+            <mxPoint x="510" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 8. Backend читает тест и задания из БД -->
+        <mxCell id="msg8" value="SELECT тест и задания" style="endArrow=block;html=1;" edge="1" parent="1" source="lifeline_backend" target="lifeline_db">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="330" as="sourcePoint"/>
+            <mxPoint x="1090" y="330" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 9. БД возвращает данные теста -->
+        <mxCell id="msg9" value="Данные теста" style="dashed=1;endArrow=block;html=1;" edge="1" parent="1" source="lifeline_db" target="lifeline_backend">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="360" as="sourcePoint"/>
+            <mxPoint x="510" y="360" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 10. Backend возвращает тест в мобильное приложение -->
+        <mxCell id="msg10" value="Структура теста и задания" style="dashed=1;endArrow=block;html=1;" edge="1" parent="1" source="lifeline_backend" target="lifeline_mobile">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="390" as="sourcePoint"/>
+            <mxPoint x="300" y="390" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 11. Отправка ответов по мере прохождения (обобщённо) -->
+        <mxCell id="msg11" value="POST /answer&#10;(ответ пользователя)" style="endArrow=block;html=1;" edge="1" parent="1" source="lifeline_mobile" target="lifeline_backend">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="430" as="sourcePoint"/>
+            <mxPoint x="510" y="430" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 12. Backend передаёт проверку TestService -->
+        <mxCell id="msg12" value="checkAnswer()" style="endArrow=block;html=1;" edge="1" parent="1" source="lifeline_backend" target="lifeline_testservice">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="460" as="sourcePoint"/>
+            <mxPoint x="700" y="460" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 13. TestService при необходимости читает правильный ответ из БД -->
+        <mxCell id="msg13" value="SELECT правильный ответ" style="endArrow=block;html=1;" edge="1" parent="1" source="lifeline_testservice" target="lifeline_db">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="490" as="sourcePoint"/>
+            <mxPoint x="1090" y="490" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 14. БД возвращает данные -->
+        <mxCell id="msg14" value="Данные ответа" style="dashed=1;endArrow=block;html=1;" edge="1" parent="1" source="lifeline_db" target="lifeline_testservice">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="520" as="sourcePoint"/>
+            <mxPoint x="700" y="520" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 15. TestService возвращает результат проверки backend-у -->
+        <mxCell id="msg15" value="Результат проверки" style="dashed=1;endArrow=block;html=1;" edge="1" parent="1" source="lifeline_testservice" target="lifeline_backend">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="550" as="sourcePoint"/>
+            <mxPoint x="510" y="550" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 16. Backend при завершении теста вызывает StatisticsService -->
+        <mxCell id="msg16" value="finishAttempt()" style="endArrow=block;html=1;" edge="1" parent="1" source="lifeline_backend" target="lifeline_stats">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="580" as="sourcePoint"/>
+            <mxPoint x="890" y="580" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 17. StatisticsService сохраняет попытку в БД -->
+        <mxCell id="msg17" value="INSERT Attempt, Answers" style="endArrow=block;html=1;" edge="1" parent="1" source="lifeline_stats" target="lifeline_db">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="610" as="sourcePoint"/>
+            <mxPoint x="1090" y="610" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 18. БД подтверждает сохранение -->
+        <mxCell id="msg18" value="OK" style="dashed=1;endArrow=block;html=1;" edge="1" parent="1" source="lifeline_db" target="lifeline_stats">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="640" as="sourcePoint"/>
+            <mxPoint x="890" y="640" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 19. StatisticsService возвращает результат backend-у -->
+        <mxCell id="msg19" value="Итоговый результат" style="dashed=1;endArrow=block;html=1;" edge="1" parent="1" source="lifeline_stats" target="lifeline_backend">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="670" as="sourcePoint"/>
+            <mxPoint x="510" y="670" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 20. Backend возвращает результат теста в мобильное приложение -->
+        <mxCell id="msg20" value="Результат теста, баллы, статистика" style="dashed=1;endArrow=block;html=1;" edge="1" parent="1" source="lifeline_backend" target="lifeline_mobile">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="700" as="sourcePoint"/>
+            <mxPoint x="300" y="700" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 21. Мобильное приложение показывает результат ученику -->
+        <mxCell id="msg21" value="Показ результата" style="dashed=1;endArrow=block;html=1;" edge="1" parent="1" source="lifeline_mobile" target="lifeline_student">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="730" as="sourcePoint"/>
+            <mxPoint x="150" y="730" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

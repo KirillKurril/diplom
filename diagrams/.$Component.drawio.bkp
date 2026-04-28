@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-11-26T12:00:00Z" agent="GPT-5.1" version="24.0.0">
+  <diagram id="ComponentDiagram" name="Components" compressed="false">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- System boundary -->
+        <mxCell id="systemBoundary" value="Система подготовки к ЦЭ" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="900" height="430" as="geometry"/>
+        </mxCell>
+
+        <!-- Mobile App Component -->
+        <mxCell id="mobileApp" value="&lt;&lt;component&gt;&gt;&#10;Мобильное приложение (Android)" style="swimlane;rounded=0;whiteSpace=wrap;html=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=0;resizeLast=0;collapsible=0;" vertex="1" parent="systemBoundary">
+          <mxGeometry x="30" y="80" width="230" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Teacher Web UI (Django templates) -->
+        <mxCell id="teacherUi" value="&lt;&lt;component&gt;&gt;&#10;Веб-интерфейс преподавателя (Django)" style="swimlane;rounded=0;whiteSpace=wrap;html=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=0;resizeLast=0;collapsible=0;" vertex="1" parent="systemBoundary">
+          <mxGeometry x="30" y="190" width="280" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Backend API Component (container for services) -->
+        <mxCell id="backendApi" value="&lt;&lt;component&gt;&gt;&#10;Серверная часть / REST API (ASP.NET Core)" style="swimlane;rounded=0;whiteSpace=wrap;html=1;childLayout=null;horizontal=1;startSize=32;horizontalStack=0;resizeParent=0;resizeLast=0;collapsible=0;" vertex="1" parent="systemBoundary">
+          <mxGeometry x="360" y="90" width="320" height="220" as="geometry"/>
+        </mxCell>
+
+        <!-- Backend internal services -->
+        <mxCell id="authService" value="AuthService" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="backendApi">
+          <mxGeometry x="20" y="40" width="120" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="testService" value="TestService" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="backendApi">
+          <mxGeometry x="180" y="40" width="120" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="statsService" value="StatisticsService" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="backendApi">
+          <mxGeometry x="20" y="110" width="140" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="recomService" value="RecommendationService" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="backendApi">
+          <mxGeometry x="180" y="110" width="140" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Django Admin Component -->
+        <mxCell id="djangoAdmin" value="&lt;&lt;component&gt;&gt;&#10;Админ-панель (Django Admin)" style="swimlane;rounded=0;whiteSpace=wrap;html=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=0;resizeLast=0;collapsible=0;" vertex="1" parent="systemBoundary">
+          <mxGeometry x="360" y="330" width="260" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Database Component -->
+        <mxCell id="database" value="&lt;&lt;database&gt;&gt;&#10;PostgreSQL" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="systemBoundary">
+          <mxGeometry x="720" y="160" width="150" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- Connections -->
+
+        <!-- Mobile App -> Backend API (REST) -->
+        <mxCell id="edge_mobile_backend" value="REST API" style="endArrow=block;html=1;rounded=0;" edge="1" parent="systemBoundary" source="mobileApp" target="backendApi">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Teacher Web UI -> Backend API (REST) -->
+        <mxCell id="edge_teacher_backend" value="REST API" style="endArrow=block;html=1;rounded=0;" edge="1" parent="systemBoundary" source="teacherUi" target="backendApi">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Backend API -> Database (SQL) -->
+        <mxCell id="edge_backend_db" value="SQL / ORM" style="endArrow=block;html=1;rounded=0;" edge="1" parent="systemBoundary" source="backendApi" target="database">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Django Admin -> Database (direct) -->
+        <mxCell id="edge_admin_db" value="прямой доступ к БД" style="endArrow=block;html=1;dashed=1;rounded=0;" edge="1" parent="systemBoundary" source="djangoAdmin" target="database">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

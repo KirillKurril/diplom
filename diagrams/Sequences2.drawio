@@ -1,0 +1,320 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram id="SequenceDiagram" name="Sequence - Passing Assigned Test" compressed="false">
+    <mxGraphModel dx="1011" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0TMHGv7WERjNGLqXC0Y0-1" value="Пользователь" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TMHGv7WERjNGLqXC0Y0-2" value="Мобильное приложение" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TMHGv7WERjNGLqXC0Y0-3" value="Back-end server" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="560" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TMHGv7WERjNGLqXC0Y0-4" value="База данных" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="840" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TMHGv7WERjNGLqXC0Y0-5" value="Пользователь" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry y="1480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TMHGv7WERjNGLqXC0Y0-6" value="Мобильное приложение" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="1480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TMHGv7WERjNGLqXC0Y0-7" value="Back-end server" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="560" y="1480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TMHGv7WERjNGLqXC0Y0-8" value="База данных" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="840" y="1480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TMHGv7WERjNGLqXC0Y0-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="0TMHGv7WERjNGLqXC0Y0-5" target="0TMHGv7WERjNGLqXC0Y0-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="580" as="sourcePoint" />
+            <mxPoint x="450" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0TMHGv7WERjNGLqXC0Y0-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="0TMHGv7WERjNGLqXC0Y0-6" target="0TMHGv7WERjNGLqXC0Y0-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1010" as="sourcePoint" />
+            <mxPoint x="180" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0TMHGv7WERjNGLqXC0Y0-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="0TMHGv7WERjNGLqXC0Y0-7" target="0TMHGv7WERjNGLqXC0Y0-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="1120" as="sourcePoint" />
+            <mxPoint x="430" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0TMHGv7WERjNGLqXC0Y0-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="0TMHGv7WERjNGLqXC0Y0-8" target="0TMHGv7WERjNGLqXC0Y0-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699.57" y="800" as="sourcePoint" />
+            <mxPoint x="699.57" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0TMHGv7WERjNGLqXC0Y0-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="61" y="280" as="sourcePoint" />
+            <mxPoint x="341" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0TMHGv7WERjNGLqXC0Y0-14" value="Открыть экран списка тестов" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="115" y="250" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="320" as="sourcePoint" />
+            <mxPoint x="620" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-5" value="GET /tests?…" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="433" y="290" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="360" as="sourcePoint" />
+            <mxPoint x="900" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-7" value="Получить список опубликованных тестов" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="330" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-8" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="400" as="sourcePoint" />
+            <mxPoint x="620" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-9" value="Список тестов" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="715" y="375" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-10" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="440" as="sourcePoint" />
+            <mxPoint x="340" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-11" value="200 OK + список тестов" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="413" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-12" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="480" as="sourcePoint" />
+            <mxPoint x="60" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-13" value="Показать список доступных тестов" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="450" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="520" as="sourcePoint" />
+            <mxPoint x="340" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-15" value="Открыть тест" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="490" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="560" as="sourcePoint" />
+            <mxPoint x="620" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-17" value="GET /tests/{testId}" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="530" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="600" as="sourcePoint" />
+            <mxPoint x="900" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-19" value="Получить тест + связанные задания" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="570" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-20" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="640" as="sourcePoint" />
+            <mxPoint x="620" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-21" value="Данные теста, список вопросов" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="610" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-22" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="680" as="sourcePoint" />
+            <mxPoint x="340" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-23" value="200 OK + задания" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="650" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-25" value="Показать кнопку «Начать»" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="690" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-26" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="720" as="sourcePoint" />
+            <mxPoint x="60" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="760" as="sourcePoint" />
+            <mxPoint x="340" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-28" value="Начать тест" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="734" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="800" as="sourcePoint" />
+            <mxPoint x="620" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-30" value="POST /attempts {testId}" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="774" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="840" as="sourcePoint" />
+            <mxPoint x="900" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-32" value="Создать новую попытку (status = in_progress)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="814" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-33" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="880" as="sourcePoint" />
+            <mxPoint x="620" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-34" value="attemptId" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="854" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-35" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="920" as="sourcePoint" />
+            <mxPoint x="340" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-36" value="201 Created + attemptId" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="894" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-37" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="960" as="sourcePoint" />
+            <mxPoint x="60" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-38" value="Показать первый вопрос" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="934" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-40" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="980" as="sourcePoint" />
+            <mxPoint x="900" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-41" value="loop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="980" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1040" as="sourcePoint" />
+            <mxPoint x="340" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-43" value="Выбрать ответ / ввести значение" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1010" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-44" value="Сохранить ответ локально (кэш)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1050" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="1080" as="sourcePoint" />
+            <mxPoint x="620" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1100" as="sourcePoint" />
+            <mxPoint x="900" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1140" as="sourcePoint" />
+            <mxPoint x="340" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-48" value="Отправить ответы" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="134" y="1110" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="1180" as="sourcePoint" />
+            <mxPoint x="620" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-50" value="POST /attempts/{attemptId}/submit {answers[]}" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1150" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-51" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="1300" as="sourcePoint" />
+            <mxPoint x="900" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-52" value="Сохранить ответы пользователя" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1270" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-56" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="899.9966666666666" y="1340" as="sourcePoint" />
+            <mxPoint x="618.33" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-58" value="Подтверждение успешного обновления" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="1310" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="1220" as="sourcePoint" />
+            <mxPoint x="620" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="1220" />
+              <mxPoint x="680" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-60" value="Оценка ответов, расчёт балла" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="683" y="1226" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-61" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="1380" as="sourcePoint" />
+            <mxPoint x="340" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-62" value="200 OK + результат теста" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="1350" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-65" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="1420" as="sourcePoint" />
+            <mxPoint x="60" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBt-N7H3MpR_yjBMv_th-66" value="Показать отчёт о прохождении" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113" y="1394" width="210" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

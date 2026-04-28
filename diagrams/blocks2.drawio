@@ -1,0 +1,74 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram id="alg-process-results" name="Алгоритм обработки результатов теста">
+    <mxGraphModel dx="1213" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="103" value="Создать запись о попытке&#xa;тестирования в базе данных" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="180" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="104" value="Получить очередной ответ&#xa;пользователя" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="260" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="105" value="Есть ещё вопросы&#xa;в тесте?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="185" y="370" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="106" value="Сохранить ответ в таблице&#xa;user_answer и проверить&#xa;корректность" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="250" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="107" value="Вычислить сырые баллы,&#xa;процент правильных ответов&#xa;и длительность попытки" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="500" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="108" value="Обновить запись попытки&#xa;(баллы, процент, статус=finished)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="620" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="109" value="Передать результаты&#xa;для аналитики и преподавателю" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="720" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="120" style="endArrow=block;html=1;" parent="1" target="103" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="121" style="endArrow=block;html=1;" parent="1" source="103" target="104" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="122" style="endArrow=block;html=1;" parent="1" source="104" target="105" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="123" value="Да" style="endArrow=block;html=1;rounded=0;curved=0;" parent="1" source="105" target="106" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="124" style="endArrow=block;html=1;" parent="1" source="106" target="104" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="125" value="Нет" style="endArrow=block;html=1;" parent="1" source="105" target="107" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="126" style="endArrow=block;html=1;" parent="1" source="107" target="108" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="127" style="endArrow=block;html=1;" parent="1" source="108" target="109" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="128" style="endArrow=block;html=1;" parent="1" source="109" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KNNSThzpLVz2KhV6t8Yl-128" value="Начало" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KNNSThzpLVz2KhV6t8Yl-129" value="Конец" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="820" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

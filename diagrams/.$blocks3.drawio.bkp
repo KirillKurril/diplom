@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" modified="2025-11-27T00:00:00Z" agent="ChatGPT" version="24.7.0" editor="draw.io">
+  <diagram id="alg-statistics" name="Алгоритм формирования статистики">
+    <mxGraphModel dx="1062" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Start -->
+        <mxCell id="200" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="20" width="120" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Receive completed attempt -->
+        <mxCell id="201" value="Получить данные о&#xa;завершённой попытке теста&#xa;(пользователь, тест, ответы,&#xa;время выполнения)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="260" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- Load tasks and topics -->
+        <mxCell id="202" value="Загрузить сведения о заданиях&#xa;и темах из банка заданий" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="260" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Init iterator -->
+        <mxCell id="203" value="Инициализировать перебор&#xa;ответов попытки" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="260" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Decision: more answers? -->
+        <mxCell id="204" value="Остались необработанные&#xa;ответы?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="360" width="210" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Process one answer -->
+        <mxCell id="205" value="Взять следующий ответ&#xa;и связанное задание/тему" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="260" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Update counters -->
+        <mxCell id="206" value="Обновить счётчики статистики:&#xa;• всего попыток по теме/заданию&#xa;• кол-во правильных и ошибок&#xa;• суммарное время выполнения" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="420" width="260" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Recalculate derived metrics -->
+        <mxCell id="207" value="Пересчитать показатели:&#xa;• процент правильных ответов&#xa;• процент ошибок по темам&#xa;• среднее время выполнения" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="540" width="260" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Save aggregates -->
+        <mxCell id="208" value="Сохранить обновлённые&#xa;агрегаты статистики&#xa;в таблицах аналитики" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="480" width="260" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Save for reports -->
+        <mxCell id="209" value="Обновить сводные данные&#xa;для отчётов по темам,&#xa;пользователям и тестам" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="580" width="260" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- End -->
+        <mxCell id="210" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="690" width="120" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Edges: main flow -->
+        <mxCell id="220" edge="1" parent="1" source="200" target="201" style="endArrow=block;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="221" edge="1" parent="1" source="201" target="202" style="endArrow=block;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="222" edge="1" parent="1" source="202" target="203" style="endArrow=block;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="223" edge="1" parent="1" source="203" target="204" style="endArrow=block;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Yes branch: still have answers -->
+        <mxCell id="224" value="Да" edge="1" parent="1" source="204" target="205" style="endArrow=block;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="380" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="225" edge="1" parent="1" source="205" target="206" style="endArrow=block;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="226" edge="1" parent="1" source="206" target="207" style="endArrow=block;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <!-- Loop back to decision -->
+        <mxCell id="227" edge="1" parent="1" source="207" target="204" style="endArrow=block;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="400" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- No branch: no answers left -->
+        <mxCell id="228" value="Нет" edge="1" parent="1" source="204" target="208" style="endArrow=block;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="500" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="229" edge="1" parent="1" source="208" target="209" style="endArrow=block;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="230" edge="1" parent="1" source="209" target="210" style="endArrow=block;html=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,129 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="YJQqrn2H927L2FJL1-Lh">
+    <mxGraphModel dx="1188" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="120" width="570" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.124;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_B1-1KDuHaOja6y86Ai7-4" target="_B1-1KDuHaOja6y86Ai7-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="390" as="sourcePoint" />
+            <mxPoint x="470" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="80" />
+              <mxPoint x="270" y="80" />
+              <mxPoint x="270" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_B1-1KDuHaOja6y86Ai7-1" target="_B1-1KDuHaOja6y86Ai7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-4" value="Input: Результаты попытки&lt;br&gt;(attemptId, answers)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="_B1-1KDuHaOja6y86Ai7-6" target="_B1-1KDuHaOja6y86Ai7-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="70" />
+              <mxPoint x="360" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-6" value="Control: Алгоритмы статистики&lt;br&gt;(агрегация данных)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="_B1-1KDuHaOja6y86Ai7-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="80" />
+              <mxPoint x="400" y="80" />
+              <mxPoint x="400" y="188" />
+            </Array>
+            <mxPoint x="400" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-8" value="Mechanism: StudentStatisticsService&lt;br&gt;(ASP.NET Core)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_B1-1KDuHaOja6y86Ai7-10" target="_B1-1KDuHaOja6y86Ai7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-10" value="A31: Рассчитать статистику" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_B1-1KDuHaOja6y86Ai7-12" target="_B1-1KDuHaOja6y86Ai7-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-12" value="A32: Проанализировать ошибки" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_B1-1KDuHaOja6y86Ai7-14" target="_B1-1KDuHaOja6y86Ai7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-14" value="A33: Сформировать рекомендации" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-15" value="Output: Статистика и рекомендации&lt;br&gt;(accuracy, topics, recommendations)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="555" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-20" value="Control: Правила рекомендаций&lt;br&gt;(приоритеты тем)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="280" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-21" value="Control: Правила форматирования&lt;br&gt;(структура отчета)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="360" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-22" value="Уровень A3: Сформировать аналитику и рекомендации" style="text;whiteSpace=wrap;labelBackgroundColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="135" y="120" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="_B1-1KDuHaOja6y86Ai7-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="330" />
+              <mxPoint x="402" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="_B1-1KDuHaOja6y86Ai7-21" target="_B1-1KDuHaOja6y86Ai7-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="443" y="368" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="410" />
+              <mxPoint x="393" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-25" value="A34: Подготовить отчет" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-26" value="Mechanism: calculate_user_statistics()&lt;br&gt;(PostgreSQL Function)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="280" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;entryX=0.879;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_B1-1KDuHaOja6y86Ai7-26" target="_B1-1KDuHaOja6y86Ai7-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="340" />
+              <mxPoint x="451" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.839;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="_B1-1KDuHaOja6y86Ai7-28" target="_B1-1KDuHaOja6y86Ai7-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="441" y="189" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="947" y="100" />
+              <mxPoint x="441" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_B1-1KDuHaOja6y86Ai7-28" value="Mechanism: RecommendationsService&lt;br&gt;(ASP.NET Core)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" width="240" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

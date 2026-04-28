@@ -1,0 +1,139 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="YJQqrn2H927L2FJL1-Lh">
+    <mxGraphModel dx="599" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tPKiuxu5MzRBQxUW32u--56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="902" y="120" width="570" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--76" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.124;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tPKiuxu5MzRBQxUW32u--57" target="tPKiuxu5MzRBQxUW32u--63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1247" y="390" as="sourcePoint" />
+            <mxPoint x="1297" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="947" y="80" />
+              <mxPoint x="1097" y="80" />
+              <mxPoint x="1097" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tPKiuxu5MzRBQxUW32u--56" target="tPKiuxu5MzRBQxUW32u--68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--57" value="Input: Валидированный запрос&lt;div&gt;(testId, userId)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="tPKiuxu5MzRBQxUW32u--59" target="tPKiuxu5MzRBQxUW32u--63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1187" y="70" />
+              <mxPoint x="1187" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--59" value="Control: Правила тестирования&lt;br&gt;(таймер, ограничения)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1107" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.793;entryY=-0.056;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="tPKiuxu5MzRBQxUW32u--61" target="tPKiuxu5MzRBQxUW32u--63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1507" y="80" />
+              <mxPoint x="1257" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--61" value="Mechanism: StudentAttemptService&lt;br&gt;(ASP.NET Core)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1387" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tPKiuxu5MzRBQxUW32u--63" target="tPKiuxu5MzRBQxUW32u--65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--63" value="A21: Начать попытку тестирования" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1067" y="190" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tPKiuxu5MzRBQxUW32u--65" target="tPKiuxu5MzRBQxUW32u--67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--65" value="A22: Обработать ответы пользователя" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1067" y="280" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tPKiuxu5MzRBQxUW32u--67" target="tPKiuxu5MzRBQxUW32u--79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--67" value="A23: Проверить правильность ответов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1067" y="370" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--68" value="Результаты попытки&lt;br&gt;(rawScore, scaledScore, answers)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1067" y="555" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="tPKiuxu5MzRBQxUW32u--70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1227.448275862069" y="279.2758620689656" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1627" y="230" />
+              <mxPoint x="1227" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--70" value="Input: Ответы пользователя&lt;br&gt;(taskId, givenAnswer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1547" y="190" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="tPKiuxu5MzRBQxUW32u--72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1257" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1802" y="240" />
+              <mxPoint x="1257" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--72" value="Mechanism: AttemptRepository (PostgreSQL)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1727" y="190" width="183" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--73" value="Control: Правила проверки (correctAnswer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1547" y="280" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--74" value="Control: Правила&lt;br&gt;оценки (scoring)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1547" y="360" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--75" value="Уровень A2: Выполнить тестирование" style="text;whiteSpace=wrap;labelBackgroundColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="962" y="120" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="tPKiuxu5MzRBQxUW32u--73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1617" y="330" />
+              <mxPoint x="1229" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="tPKiuxu5MzRBQxUW32u--74" target="tPKiuxu5MzRBQxUW32u--79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="368" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1617" y="410" />
+              <mxPoint x="1220" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--79" value="A24: Завершить попытку и сохранить результаты" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1067" y="440" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--80" value="Mechanism: UserAnswerRepository (PostgreSQL)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1727" y="360" width="193" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPKiuxu5MzRBQxUW32u--81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="tPKiuxu5MzRBQxUW32u--80" target="tPKiuxu5MzRBQxUW32u--79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1277" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1800" y="420" />
+              <mxPoint x="1278" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

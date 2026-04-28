@@ -1,0 +1,121 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram id="classDiagram" name="ClassDiagram">
+    <mxGraphModel dx="3427" dy="3058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Role" value="Role&#xa;----------------&#xa;+role_id: uuid&#xa;+role_name: string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UserAccount" value="UserAccount&#xa;----------------&#xa;+user_id: uuid&#xa;+email: string&#xa;+password_hash: string&#xa;+name: string&#xa;+status: string&#xa;+registered_at: datetime" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="340" y="120" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Subject" value="Subject&#xa;----------------&#xa;+subject_id: uuid&#xa;+subject_code: string&#xa;+subject_name: string&#xa;+is_active: bool" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="380" y="-270" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Topic" value="Topic&#xa;----------------&#xa;+topic_id: uuid&#xa;+topic_name: string&#xa;+is_active: bool" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="-370" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ExamSource" value="ExamSource&#xa;----------------&#xa;+exam_source_id: uuid&#xa;+year: int&#xa;+variant_number: int&#xa;+issuer: string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="-40" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Task" value="Task&#xa;----------------&#xa;+task_id: uuid&#xa;+task_type: string&#xa;+difficulty: int&#xa;+statement: text&#xa;+correct_answer: jsonb&#xa;+is_active: bool" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="520" y="220" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Test" value="Test&#xa;----------------&#xa;+test_id: uuid&#xa;+test_kind: string&#xa;+title: string&#xa;+time_limit_sec: int&#xa;+attempts_allowed: int&#xa;+is_published: bool" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="800" y="220" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="TestTask" value="TestTask&#xa;----------------&#xa;+test_task_id: uuid&#xa;+position: int&#xa;+score_weight: number" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="240" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="TeacherStudent" value="TeacherStudent&#xa;----------------&#xa;+teacher_student_id: uuid&#xa;+status: string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="210" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Assignment" value="Assignment&#xa;----------------&#xa;+assignment_id: uuid&#xa;+assigned_at: datetime&#xa;+due_at: datetime&#xa;+status: string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="40" y="380" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Attempt" value="Attempt&#xa;----------------&#xa;+attempt_id: uuid&#xa;+started_at: datetime&#xa;+finished_at: datetime&#xa;+status: string&#xa;+raw_score: number&#xa;+scaled_score: number&#xa;+duration_sec: int" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="320" y="380" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="UserAnswer" value="UserAnswer&#xa;----------------&#xa;+answer_id: uuid&#xa;+given_answer: jsonb&#xa;+is_correct: bool&#xa;+time_spent_sec: int" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="620" y="420" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Recommendation" value="Recommendation&#xa;----------------&#xa;+recommendation_id: uuid&#xa;+priority: int&#xa;+reason_code: string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="890" y="420" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Notification" value="Notification&#xa;----------------&#xa;+notification_id: uuid&#xa;+type: string&#xa;+status: string" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="420" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eRoleUser" value="1 .. *" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Role" target="UserAccount" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSubjectTopic" value="1 .. *" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Subject" target="Topic" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSubjectTask" value="1 .. *" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Subject" target="Task" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTopicTask" value="0..1 .. *" style="endArrow=none;startArrow=none;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Topic" target="Task" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eExamSourceTask" value="0..1 .. *" style="endArrow=none;startArrow=none;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="ExamSource" target="Task" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSubjectTest" value="1 .. *" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Subject" target="Test" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eUserTestAuthor" value="1 .. * (author)" style="endArrow=none;startArrow=none;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="UserAccount" target="Test" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTestTestTask" value="1 .. *" style="endArrow=none;startArrow=diamond;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Test" target="TestTask" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTaskTestTask" value="1 .. *" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;dashed=1;" parent="1" source="Task" target="TestTask" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eUserTeacherStudentTeacher" value="teacher" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="UserAccount" target="TeacherStudent" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eUserTeacherStudentStudent" value="student" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="TeacherStudent" target="UserAccount" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAssignmentTest" value="* .. 1" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Assignment" target="Test" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAssignmentTeacher" value="* .. 1 (teacher)" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;dashed=1;" parent="1" source="Assignment" target="UserAccount" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAssignmentStudent" value="* .. 1 (student)" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;dashed=1;" parent="1" source="UserAccount" target="Assignment" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAttemptUser" value="* .. 1" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Attempt" target="UserAccount" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAttemptTest" value="* .. 1" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Attempt" target="Test" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAttemptAssignment" value="* .. 0..1" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;dashed=1;" parent="1" source="Attempt" target="Assignment" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAnswerAttempt" value="* .. 1" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="UserAnswer" target="Attempt" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAnswerTask" value="* .. 1" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="UserAnswer" target="Task" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRecommendationUser" value="* .. 1" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Recommendation" target="UserAccount" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRecommendationSubject" value="* .. 1" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;dashed=1;" parent="1" source="Recommendation" target="Subject" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRecommendationTopic" value="* .. 0..1" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;dashed=1;" parent="1" source="Recommendation" target="Topic" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNotificationUser" value="* .. 1" style="endArrow=none;startArrow=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="Notification" target="UserAccount" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
