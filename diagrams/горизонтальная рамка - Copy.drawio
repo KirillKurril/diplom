@@ -1,0 +1,146 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Функциональная схема" id="Функциональная_схема">
+    <mxGraphModel dx="1782" dy="1379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="842" pageHeight="595" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" tags="Блок-схема Соединительная_линия Flowchart Background" id="68">
+          <mxCell parent="1" vertex="1" visible="0">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="4HuuUgK52tmR0r3viC00-391" vertex="1" parent="1">
+          <mxGeometry x="2287" y="1344" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-398" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2325" y="1550" width="570" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-399" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.124;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4HuuUgK52tmR0r3viC00-401" target="4HuuUgK52tmR0r3viC00-407">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2670" y="1820" as="sourcePoint" />
+            <mxPoint x="2720" y="1770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2440" y="1510" />
+              <mxPoint x="2520" y="1510" />
+              <mxPoint x="2520" y="1600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-400" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4HuuUgK52tmR0r3viC00-398" target="4HuuUgK52tmR0r3viC00-412">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-401" value="Input: Валидированный запрос&lt;div&gt;(testId, userId)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="1410" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-402" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="4HuuUgK52tmR0r3viC00-403" target="4HuuUgK52tmR0r3viC00-407">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2810" y="1500" />
+              <mxPoint x="2610" y="1500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-403" value="Control: Правила тестирования&lt;br&gt;(таймер, ограничения)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2695" y="1410" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-404" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.793;entryY=-0.056;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="4HuuUgK52tmR0r3viC00-405" target="4HuuUgK52tmR0r3viC00-407">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3220" y="1510" />
+              <mxPoint x="2680" y="1510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-405" value="Mechanism: StudentAttemptService&lt;br&gt;(ASP.NET Core)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3096" y="1410" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-406" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4HuuUgK52tmR0r3viC00-407" target="4HuuUgK52tmR0r3viC00-409">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-407" value="A21: Начать попытку тестирования" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="1620" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-408" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4HuuUgK52tmR0r3viC00-409" target="4HuuUgK52tmR0r3viC00-411">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-409" value="A22: Обработать ответы пользователя" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="1710" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-410" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4HuuUgK52tmR0r3viC00-411" target="4HuuUgK52tmR0r3viC00-421">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-411" value="A23: Проверить правильность ответов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="1800" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-412" value="Результаты попытки&lt;br&gt;(rawScore, scaledScore, answers)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="1985" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-413" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="4HuuUgK52tmR0r3viC00-414">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2650.448275862069" y="1709.2758620689656" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3050" y="1660" />
+              <mxPoint x="2650" y="1660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-414" value="Input: Ответы пользователя&lt;br&gt;(problemId, givenAnswer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="1620" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-415" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="4HuuUgK52tmR0r3viC00-416">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2680" y="1710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3225" y="1670" />
+              <mxPoint x="2680" y="1670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-416" value="Mechanism: TestAttemptService&lt;br&gt;(ASP.NET Core)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3150" y="1620" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-417" value="Control: Правила проверки (correctAnswer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="1710" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-418" value="Control: Правила&lt;br&gt;оценки (scoring)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="1790" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-419" value="Уровень A2: Выполнить тестирование" style="text;whiteSpace=wrap;labelBackgroundColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2385" y="1550" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-420" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="4HuuUgK52tmR0r3viC00-418" target="4HuuUgK52tmR0r3viC00-421">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2693" y="1798" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3040" y="1840" />
+              <mxPoint x="2643" y="1840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-421" value="A24: Завершить попытку и сохранить результаты" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="1870" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-422" value="Mechanism: StudentAttemptService&lt;br&gt;(ASP.NET Core)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3150" y="1790" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-423" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="4HuuUgK52tmR0r3viC00-422" target="4HuuUgK52tmR0r3viC00-421">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2700" y="1710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3223" y="1850" />
+              <mxPoint x="2701" y="1850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HuuUgK52tmR0r3viC00-424" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.689;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="4HuuUgK52tmR0r3viC00-417" target="4HuuUgK52tmR0r3viC00-411">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3050" y="1770" />
+              <mxPoint x="2655" y="1770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
