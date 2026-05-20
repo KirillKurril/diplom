@@ -1,0 +1,7 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+POST /auth/login,500,207,74,692,124.71,0.000%,4.16854,3.91,1.69,960.9
+POST /tests/student/list,500,11,3,166,18.11,0.000%,4.19094,4.79,3.34,1170.0
+POST /attempts/start,500,40,11,667,62.77,0.000%,4.19516,9.96,3.19,2432.3
+PATCH /attempts/complete,500,23,6,250,30.27,0.000%,4.21852,0.73,3.23,176.3
+GET /statistics/me,500,20,4,391,44.76,0.000%,4.22440,45.65,3.16,11066.0
+TOTAL,2500,60,3,692,100.22,0.000%,20.83681,64.32,14.49,3161.1
