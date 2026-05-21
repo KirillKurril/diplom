@@ -1,32 +1,43 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
   <diagram name="Функциональная схема" id="Функциональная_схема">
-    <mxGraphModel dx="337" dy="250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1213" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-69" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1169" height="827" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="57" y="14" width="1097" height="802" as="geometry" />
+        </mxCell>
+        <UserObject label="" tags="Background" id="3">
+          <mxCell style="vsdxID=3;fillColor=#FFFFFF;gradientColor=none;shape=stencil(nY9LDoAgDERP0z3SI/i5BwkoRAUC+Lu9kGo0Lt3NtK/tFLCOWngFnMUU3Kg2I5MGbIBzY7UKJmUF2ALWvQtqCG6xkrwXhSxqdmvZsNNcxViZ4ewgT64jdDL2hf4E7wsXmsWThd549765c4l+xvYE);strokeColor=#000000;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=#ffffff;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="636" y="665" width="518" height="151" as="geometry" />
+          </mxCell>
+        </UserObject>
         <UserObject label="" tags="Background" id="43">
-          <mxCell style="vsdxID=5;edgeStyle=none;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeColor=#000000;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.863;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxCell style="vsdxID=5;edgeStyle=none;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeColor=#000000;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.863;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TgPfT9b9XquYZ_nCs3HO-70" edge="1">
             <mxGeometry relative="1" as="geometry">
               <Array as="points" />
-              <mxPoint x="1154" y="706.1259999999997" as="sourcePoint" />
+              <mxPoint x="1152" y="706" as="sourcePoint" />
               <mxPoint x="817" y="706" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </UserObject>
         <UserObject label="" tags="Background" id="44">
-          <mxCell style="vsdxID=4;edgeStyle=none;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeColor=#000000;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;entryX=0.693;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxCell style="vsdxID=4;edgeStyle=none;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeColor=#000000;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;entryX=0.693;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="TgPfT9b9XquYZ_nCs3HO-70" edge="1">
             <mxGeometry relative="1" as="geometry">
               <Array as="points" />
               <mxPoint x="817" y="665" as="sourcePoint" />
-              <mxPoint x="817.221" y="816" as="targetPoint" />
+              <mxPoint x="817" y="814" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </UserObject>
         <UserObject label="" tags="Background" id="45">
-          <mxCell style="vsdxID=6;edgeStyle=none;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeColor=#000000;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.947;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxCell style="vsdxID=6;edgeStyle=none;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeColor=#000000;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;exitX=1;exitY=0.947;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TgPfT9b9XquYZ_nCs3HO-70" edge="1">
             <mxGeometry relative="1" as="geometry">
               <Array as="points" />
-              <mxPoint x="1154" y="773.4940000000001" as="sourcePoint" />
+              <mxPoint x="1151" y="774" as="sourcePoint" />
               <mxPoint x="817" y="774" as="targetPoint" />
             </mxGeometry>
           </mxCell>
@@ -38,11 +49,6 @@
               <mxPoint x="1012" y="706" as="sourcePoint" />
               <mxPoint x="1012" y="816" as="targetPoint" />
             </mxGeometry>
-          </mxCell>
-        </UserObject>
-        <UserObject label="" tags="Background" id="3">
-          <mxCell style="vsdxID=3;shape=stencil(nY9LDoAgDERP0z3SI/i5BwkoRAUC+Lu9kGo0Lt3NtK/tFLCOWngFnMUU3Kg2I5MGbIBzY7UKJmUF2ALWvQtqCG6xkrwXhSxqdmvZsNNcxViZ4ewgT64jdDL2hf4E7wsXmsWThd549765c4l+xvYE);spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=#ffffff;rounded=0;html=1;whiteSpace=wrap;gradientColor=none;" parent="1" vertex="1">
-            <mxGeometry x="636" y="665" width="518" height="151" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" tags="Background" id="47">
@@ -119,11 +125,11 @@
           </mxCell>
         </UserObject>
         <UserObject label="" tags="Background" id="55">
-          <mxCell style="vsdxID=17;edgeStyle=none;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeColor=#000000;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;entryX=0.572;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxCell style="vsdxID=17;edgeStyle=none;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeColor=#000000;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;entryX=0.572;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="TgPfT9b9XquYZ_nCs3HO-70" edge="1">
             <mxGeometry relative="1" as="geometry">
               <Array as="points" />
               <mxPoint x="684" y="665" as="sourcePoint" />
-              <mxPoint x="684.4839999999999" y="816" as="targetPoint" />
+              <mxPoint x="684" y="814" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </UserObject>
@@ -271,7 +277,7 @@
             <mxGeometry x="1099" y="708" width="55" height="10" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:23.95px;font-family:GOST type B;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;i&gt;ГУИР.253504.001 ПЛ&lt;/i&gt;&lt;/font&gt;&lt;font style=&quot;font-size:23.95px;font-family:GOST type B;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="11">
+        <UserObject label="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-size:23.95px;font-family:GOST type B;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;i&gt;ГУИР.253504-01 СРС&lt;/i&gt;&lt;/font&gt;&lt;font style=&quot;font-size:23.95px;font-family:GOST type B;color:#000000;direction:ltr;letter-spacing:0px;line-height:120%;opacity:1&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="11">
           <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=85;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-2;spacingBottom=-2;spacingLeft=-2;spacingRight=-2;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
             <mxGeometry x="818" y="665" width="336" height="41" as="geometry" />
           </mxCell>
@@ -291,41 +297,19 @@
             <mxGeometry x="1012" y="760" width="55" height="13.5" as="geometry" />
           </mxCell>
         </UserObject>
+        <UserObject label="&lt;div&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Формат А4&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="16">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=360;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-2;spacingBottom=-2;spacingLeft=-2;spacingRight=-2;points=[[0.64,1,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
+            <mxGeometry x="1092" y="815" width="61" height="12" as="geometry" />
+          </mxCell>
+        </UserObject>
         <UserObject label="&lt;div&gt;&lt;p style=&quot;text-align:center;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:ltr;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Изм.&lt;/i&gt;&lt;/font&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="17">
           <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=386;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-2;spacingBottom=-2;spacingLeft=-2;spacingRight=-2;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
             <mxGeometry x="635" y="722" width="24" height="10" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;div&gt;&lt;p style=&quot;text-align: left; margin: 0px; text-indent: 0px; vertical-align: middle; direction: rtl;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Разработал&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="18">
-          <mxCell style="verticalAlign=middle;align=right;overflow=width;vsdxID=396;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
-            <mxGeometry x="637" y="735" width="45" height="10" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp; Дмитрук Б.Я.&lt;/i&gt;&lt;/font&gt;" tags="Background" id="22">
-          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
-            <mxGeometry x="684" y="733" width="64" height="13" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;div&gt;&lt;p style=&quot;margin: 0px; text-indent: 0px; vertical-align: middle; direction: rtl;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Проверил&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="19">
-          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=397;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
-            <mxGeometry x="638" y="747" width="45" height="13" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;div&gt;&lt;p style=&quot;text-align: left; margin: 0px; text-indent: 0px; vertical-align: middle; direction: rtl;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Рецензент&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="20">
-          <mxCell style="verticalAlign=middle;align=right;overflow=width;vsdxID=398;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
-            <mxGeometry x="638" y="774" width="47" height="13" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;div&gt;&lt;p style=&quot;text-align:right;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:rtl;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="24">
-          <mxCell style="verticalAlign=middle;align=right;overflow=width;vsdxID=402;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
-            <mxGeometry x="678.5" y="787" width="69.5" height="13" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;div&gt;&lt;p style=&quot;text-align:right;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:rtl;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Н. контроль&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="21">
-          <mxCell style="verticalAlign=middle;align=right;overflow=width;vsdxID=399;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
-            <mxGeometry x="635" y="787.5" width="45" height="13" as="geometry" />
-          </mxCell>
-        </UserObject>
+        <mxCell id="38" parent="1" vertex="1">
+          <mxGeometry x="57" y="14" as="geometry" />
+        </mxCell>
         <mxCell id="40" parent="1" vertex="1">
           <mxGeometry x="1012" y="719" as="geometry" />
         </mxCell>
@@ -333,11 +317,10 @@
           <mxGeometry x="1153" y="721" as="geometry" />
         </mxCell>
         <UserObject label="" tags="Background" id="42">
-          <mxCell style="vsdxID=8;edgeStyle=none;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeColor=#000000;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;entryX=1;entryY=0.88;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxCell style="vsdxID=8;edgeStyle=none;startArrow=none;endArrow=none;startSize=5;endSize=5;strokeColor=#000000;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;verticalAlign=middle;html=1;labelBackgroundColor=#ffffff;rounded=0;entryX=1;entryY=0.88;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="TgPfT9b9XquYZ_nCs3HO-70" edge="1">
             <mxGeometry relative="1" as="geometry">
               <Array as="points" />
               <mxPoint x="1012" y="720" as="sourcePoint" />
-              <mxPoint x="1154" y="719.7599999999998" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </UserObject>
@@ -346,148 +329,175 @@
             <mxGeometry as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp;Снисаренко&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;i style=&quot;font-family: &amp;quot;GOST type B&amp;quot;;&quot;&gt;С.В.&amp;nbsp;&lt;/i&gt;" tags="Background" id="TgPfT9b9XquYZ_nCs3HO-73">
-          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
-            <mxGeometry x="684" y="746.5" width="64" height="14.5" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font face=&quot;GOST type B&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;Диаграмма развертывания&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font face=&quot;GOST type B&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;Плакат&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="TgPfT9b9XquYZ_nCs3HO-98">
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-75" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="142" y="190" width="570" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-76" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.124;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-78" target="TgPfT9b9XquYZ_nCs3HO-84" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="487" y="460" as="sourcePoint" />
+            <mxPoint x="537" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="187" y="150" />
+              <mxPoint x="337" y="150" />
+              <mxPoint x="337" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-75" target="TgPfT9b9XquYZ_nCs3HO-89" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-78" value="Input: Результаты попытки&lt;br&gt;(attemptId, answers)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="67" y="70" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-80" target="TgPfT9b9XquYZ_nCs3HO-84" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="427" y="140" />
+              <mxPoint x="427" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-80" value="Control: Алгоритмы статистики&lt;br&gt;(агрегация данных)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="347" y="70" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-82" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="747" y="150" />
+              <mxPoint x="467" y="150" />
+              <mxPoint x="467" y="258" />
+            </Array>
+            <mxPoint x="467" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-82" value="Mechanism: StatisticsService&lt;br&gt;(ASP.NET Core)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="833" y="70" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-84" target="TgPfT9b9XquYZ_nCs3HO-86" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-84" value="A31: Рассчитать статистику" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="307" y="260" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-86" target="TgPfT9b9XquYZ_nCs3HO-88" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-86" value="A32: Проанализировать ошибки" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="307" y="350" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-88" target="TgPfT9b9XquYZ_nCs3HO-95" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-88" value="A33: Сформировать рекомендации" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="307" y="440" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-89" value="Output: Статистика и рекомендации&lt;br&gt;(accuracy, topics, recommendations)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="307" y="625" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-90" value="Control: Правила рекомендаций&lt;br&gt;(приоритеты тем)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="724" y="350" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-91" value="Control: Правила форматирования&lt;br&gt;(структура отчета)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="724" y="430" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-92" value="Уровень A3: Сформировать аналитику и рекомендации" style="text;whiteSpace=wrap;labelBackgroundColor=default;align=center;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="202" y="190" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-90" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="824" y="400" />
+              <mxPoint x="469" y="400" />
+              <mxPoint x="469" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-91" target="TgPfT9b9XquYZ_nCs3HO-95" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="438" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="824" y="480" />
+              <mxPoint x="460" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-95" value="A34: Подготовить отчет" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="307" y="510" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-96" value="&lt;p&gt;Mechanism:&amp;nbsp;&lt;span&gt;&lt;font style=&quot;&quot;&gt;&lt;font&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;GetStudentStatistics&lt;/font&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(С# Function)&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+          <mxGeometry x="950" y="350" width="189.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;entryX=0.879;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-96" target="TgPfT9b9XquYZ_nCs3HO-88" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="517" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1042" y="410" />
+              <mxPoint x="518" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font face=&quot;GOST type B&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;Формирование аналитики и рекомендаций&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font face=&quot;GOST type B&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;Схема работы системы&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="TgPfT9b9XquYZ_nCs3HO-98">
           <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=88;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-2;spacingBottom=-2;spacingLeft=-2;spacingRight=-2;points=[[0.64,1,0]];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
             <mxGeometry x="820" y="710" width="190" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-99" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.001;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="900" y="700" as="sourcePoint" />
-            <mxPoint x="1154" y="817" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-100" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.013;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1154" y="817.5" as="sourcePoint" />
-            <mxPoint x="1154" y="664.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="TgPfT9b9XquYZ_nCs3HO-103" target="TgPfT9b9XquYZ_nCs3HO-122" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-102" value="&amp;nbsp;Npgsql (SQL Queries)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TgPfT9b9XquYZ_nCs3HO-101" vertex="1" connectable="0">
-          <mxGeometry x="0.7813" y="2" relative="1" as="geometry">
-            <mxPoint x="-76" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-103" value="Device: API Server&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ CTH API&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="409" y="210" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="TgPfT9b9XquYZ_nCs3HO-105" target="TgPfT9b9XquYZ_nCs3HO-103" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-105" value="&lt;u&gt;&lt;b&gt;artifact&lt;br&gt;&lt;/b&gt;&lt;/u&gt;&lt;div&gt;&lt;u&gt;&lt;b&gt;CTH API&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="364" y="20" width="270" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-106" value="&lt;div&gt;+ AuthController : ASP.NET Core&lt;/div&gt;&lt;div&gt;+ TestController : ASP.NET Core&lt;/div&gt;&lt;div&gt;+ TestAttemptsController : ASP.NET Core&lt;/div&gt;&lt;div&gt;+ StatisticsController : ASP.NET Core&lt;/div&gt;&lt;div&gt;+ AssignmentController : ASP.NET Core&lt;/div&gt;&lt;div&gt;+ TeacherStudentController : ASP.NET Core&lt;/div&gt;&lt;div&gt;+ JWT_Authentication : Token Service&lt;/div&gt;&lt;div&gt;+ Swagger : OpenAPI&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="TgPfT9b9XquYZ_nCs3HO-105" vertex="1">
-          <mxGeometry y="40" width="270" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="TgPfT9b9XquYZ_nCs3HO-110" target="TgPfT9b9XquYZ_nCs3HO-103" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="179" y="270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-108" value="HTTPS (Auth, Test Data, Attempts, Statistics)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TgPfT9b9XquYZ_nCs3HO-107" vertex="1" connectable="0">
-          <mxGeometry x="-0.5608" y="2" relative="1" as="geometry">
-            <mxPoint x="2" y="41" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="TgPfT9b9XquYZ_nCs3HO-110" target="TgPfT9b9XquYZ_nCs3HO-111" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-110" value="Device: Android Device&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ CTH Mobile App&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="99" y="410" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-111" value="&lt;u&gt;&lt;b&gt;artifact&lt;br&gt;&lt;/b&gt;&lt;/u&gt;&lt;div&gt;&lt;u&gt;&lt;b&gt;CTH Mobile App&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="64" y="549" width="250" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-112" value="+ MainScreen : Jetpack Compose&#xa;+ TestScreen : Jetpack Compose&#xa;+ StatisticsScreen : Jetpack Compose&#xa;+ MainViewModel : Kotlin&#xa;+ TestViewModel : Kotlin&#xa;+ StatisticsViewModel : Kotlin&#xa;+ ApiClient : Retrofit&#xa;+ LocalCache : SQLite" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="TgPfT9b9XquYZ_nCs3HO-111" vertex="1">
-          <mxGeometry y="40" width="250" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="TgPfT9b9XquYZ_nCs3HO-118" target="TgPfT9b9XquYZ_nCs3HO-122" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="810" y="470" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-114" value="&amp;nbsp;Django ORM (Direct DB Access)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TgPfT9b9XquYZ_nCs3HO-113" vertex="1" connectable="0">
-          <mxGeometry x="-0.2853" relative="1" as="geometry">
-            <mxPoint x="-18" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="TgPfT9b9XquYZ_nCs3HO-118" target="TgPfT9b9XquYZ_nCs3HO-103" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-116" value="HTTPS (Test Creation, Task Management)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TgPfT9b9XquYZ_nCs3HO-115" vertex="1" connectable="0">
-          <mxGeometry y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="TgPfT9b9XquYZ_nCs3HO-118" target="TgPfT9b9XquYZ_nCs3HO-119" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-118" value="Device: Web Server&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Teacher Web Client&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="409" y="410" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-119" value="&lt;u&gt;&lt;b&gt;artifact&lt;br&gt;&lt;/b&gt;&lt;/u&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;Teacher Web Client&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="374" y="549" width="250" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-120" value="&lt;div&gt;+ Test_Creation_UI : Django Templates&lt;/div&gt;&lt;div&gt;+ Task_Management_UI : Django Templates&lt;/div&gt;&lt;div&gt;+ Admin_Panel : Django Admin&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="TgPfT9b9XquYZ_nCs3HO-119" vertex="1">
-          <mxGeometry y="40" width="250" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="TgPfT9b9XquYZ_nCs3HO-122" target="TgPfT9b9XquYZ_nCs3HO-123" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1005" y="270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-122" value="Device: Database Server&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ PostgreSQL Database&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="770" y="210" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-123" value="&lt;u&gt;&lt;b&gt;artifact&lt;br&gt;&lt;/b&gt;&lt;/u&gt;&lt;div&gt;&lt;b&gt;&lt;u&gt;PostgreSQL Database&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="385" width="250" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-124" value="&lt;div&gt;+ test : Table&lt;/div&gt;&lt;div&gt;+ group : Table&lt;/div&gt;&lt;div&gt;+ problem : Table&lt;/div&gt;&lt;div&gt;+ test_attempt : Table&lt;/div&gt;&lt;div&gt;+ student_assignment : Table&lt;/div&gt;&lt;div&gt;+ test_attempt : Table&lt;/div&gt;&lt;div&gt;+ topic : Table&lt;/div&gt;&lt;div&gt;+ invitation_code : Table&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="TgPfT9b9XquYZ_nCs3HO-123" vertex="1">
-          <mxGeometry y="40" width="250" height="130" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;У&lt;/i&gt;&lt;/font&gt;" tags="Background" id="fw4OkRJQGn889ioWobeV-69">
-          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=32;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
-            <mxGeometry x="1016" y="734.5" width="33" height="10" as="geometry" />
+        <UserObject label="&lt;div&gt;&lt;p style=&quot;text-align: left; margin: 0px; text-indent: 0px; vertical-align: middle; direction: rtl;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Разработал&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="ewKwntuNlbBHhG2DQw7M-68">
+          <mxCell style="verticalAlign=middle;align=right;overflow=width;vsdxID=396;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
+            <mxGeometry x="637" y="734" width="45" height="10" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;div&gt;&lt;p style=&quot;margin: 0px; text-indent: 0px; vertical-align: middle; direction: rtl;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Т. контроль&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="fw4OkRJQGn889ioWobeV-72">
+        <UserObject label="&lt;div&gt;&lt;p style=&quot;margin: 0px; text-indent: 0px; vertical-align: middle; direction: rtl;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Проверил&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="ewKwntuNlbBHhG2DQw7M-70">
           <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=397;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
-            <mxGeometry x="638" y="761.5" width="45" height="13" as="geometry" />
+            <mxGeometry x="638" y="746" width="45" height="13" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;div&gt;&lt;p style=&quot;margin: 0px; text-indent: 0px; vertical-align: middle; direction: rtl;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Утвердил&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="fw4OkRJQGn889ioWobeV-74">
+        <UserObject label="&lt;div&gt;&lt;p style=&quot;text-align: left; margin: 0px; text-indent: 0px; vertical-align: middle; direction: rtl;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Рецензент&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="ewKwntuNlbBHhG2DQw7M-71">
+          <mxCell style="verticalAlign=middle;align=right;overflow=width;vsdxID=398;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
+            <mxGeometry x="638" y="773" width="47" height="13" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;&lt;p style=&quot;text-align:right;margin-left:0;margin-right:0;margin-top:0px;margin-bottom:0px;text-indent:0;vertical-align:middle;direction:rtl;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Н. контроль&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="ewKwntuNlbBHhG2DQw7M-73">
+          <mxCell style="verticalAlign=middle;align=right;overflow=width;vsdxID=399;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
+            <mxGeometry x="635" y="786.5" width="45" height="13" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;&lt;p style=&quot;margin: 0px; text-indent: 0px; vertical-align: middle; direction: rtl;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Т. контроль&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="ewKwntuNlbBHhG2DQw7M-75">
           <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=397;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
-            <mxGeometry x="638" y="800.5" width="45" height="15.5" as="geometry" />
+            <mxGeometry x="638" y="760.5" width="45" height="13" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp;Снисаренко&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;i style=&quot;font-family: &amp;quot;GOST type B&amp;quot;;&quot;&gt;С.В.&amp;nbsp;&lt;/i&gt;" tags="Background" id="88mwCsA2MV_HGymjKUYY-69">
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;p style=&quot;text-align: center; margin: 0px; text-indent: 0px; vertical-align: middle; direction: ltr;&quot;&gt;&lt;font face=&quot;GOST type B&quot; size=&quot;1&quot;&gt;&lt;i&gt;У&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="ewKwntuNlbBHhG2DQw7M-77">
+          <mxCell style="verticalAlign=middle;align=center;overflow=width;vsdxID=90;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-2;spacingBottom=-2;spacingLeft=-2;spacingRight=-2;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+            <mxGeometry x="1005" y="732.25" width="55" height="13.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;&lt;p style=&quot;margin: 0px; text-indent: 0px; vertical-align: middle; direction: rtl;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Утвердил&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="xWV5FPVCFwjUvL5lO1H2-68">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=397;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="637" y="800.5" width="45" height="15.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp; Дмитрук Б.Я.&lt;/i&gt;&lt;/font&gt;" tags="Background" id="xWV5FPVCFwjUvL5lO1H2-69">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="684" y="733" width="64" height="13" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp;Снисаренко&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;i style=&quot;font-family: &amp;quot;GOST type B&amp;quot;;&quot;&gt;С.В.&amp;nbsp;&lt;/i&gt;" tags="Background" id="xWV5FPVCFwjUvL5lO1H2-70">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="684" y="746.5" width="64" height="14.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp;Снисаренко&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;i style=&quot;font-family: &amp;quot;GOST type B&amp;quot;;&quot;&gt;С.В.&amp;nbsp;&lt;/i&gt;" tags="Background" id="xWV5FPVCFwjUvL5lO1H2-71">
           <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" vertex="1" parent="1">
             <mxGeometry x="684" y="761.5" width="64" height="12.5" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp;Комаровская А.Д.&lt;/i&gt;&lt;/font&gt;" tags="Background" id="88mwCsA2MV_HGymjKUYY-70">
+        <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp;Комаровская А.Д.&lt;/i&gt;&lt;/font&gt;" tags="Background" id="xWV5FPVCFwjUvL5lO1H2-72">
           <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" vertex="1" parent="1">
             <mxGeometry x="684" y="787" width="64" height="14.5" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp;Сиротко С.И.&lt;/i&gt;&lt;/font&gt;" tags="Background" id="88mwCsA2MV_HGymjKUYY-71">
+        <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp;Сиротко С.И.&lt;/i&gt;&lt;/font&gt;" tags="Background" id="xWV5FPVCFwjUvL5lO1H2-73">
           <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" vertex="1" parent="1">
             <mxGeometry x="684" y="802" width="64" height="14" as="geometry" />
           </mxCell>
