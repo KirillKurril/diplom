@@ -346,7 +346,7 @@
         <mxCell id="TgPfT9b9XquYZ_nCs3HO-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-75" target="TgPfT9b9XquYZ_nCs3HO-89" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-78" value="Input: Результаты попытки&lt;br&gt;(attemptId, answers)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-78" value="Input: Результаты попытки&lt;br&gt;(attemptId, answers)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="67" y="70" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TgPfT9b9XquYZ_nCs3HO-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-80" target="TgPfT9b9XquYZ_nCs3HO-84" edge="1">
@@ -357,7 +357,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-80" value="Control: Алгоритмы статистики&lt;br&gt;(агрегация данных)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-80" value="Control: Алгоритмы статистики&lt;br&gt;(агрегация данных)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="347" y="70" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TgPfT9b9XquYZ_nCs3HO-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-82" edge="1">
@@ -370,37 +370,37 @@
             <mxPoint x="467" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-82" value="Mechanism: StatisticsService&lt;br&gt;(ASP.NET Core)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-82" value="Mechanism: StatisticsService&lt;br&gt;(ASP.NET Core)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="833" y="70" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TgPfT9b9XquYZ_nCs3HO-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-84" target="TgPfT9b9XquYZ_nCs3HO-86" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-84" value="A31: Рассчитать статистику" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-84" value="A31: Рассчитать статистику" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="307" y="260" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TgPfT9b9XquYZ_nCs3HO-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-86" target="TgPfT9b9XquYZ_nCs3HO-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-86" value="A32: Проанализировать ошибки" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-86" value="A32: Проанализировать ошибки" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="307" y="350" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TgPfT9b9XquYZ_nCs3HO-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-88" target="TgPfT9b9XquYZ_nCs3HO-95" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-88" value="A33: Сформировать рекомендации" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-88" value="A33: Сформировать рекомендации" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="307" y="440" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-89" value="Output: Статистика и рекомендации&lt;br&gt;(accuracy, topics, recommendations)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-89" value="Output: Статистика и рекомендации&lt;br&gt;(accuracy, topics, recommendations)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="307" y="625" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-90" value="Control: Правила рекомендаций&lt;br&gt;(приоритеты тем)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-90" value="Control: Правила рекомендаций&lt;br&gt;(приоритеты тем)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="724" y="350" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-91" value="Control: Правила форматирования&lt;br&gt;(структура отчета)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-91" value="Control: Правила форматирования&lt;br&gt;(структура отчета)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="724" y="430" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-92" value="Уровень A3: Сформировать аналитику и рекомендации" style="text;whiteSpace=wrap;labelBackgroundColor=default;align=center;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-92" value="Уровень A3: Сформировать аналитику и рекомендации" style="text;whiteSpace=wrap;labelBackgroundColor=default;align=center;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="202" y="190" width="450" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TgPfT9b9XquYZ_nCs3HO-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-90" edge="1">
@@ -422,10 +422,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-95" value="A34: Подготовить отчет" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-95" value="A34: Подготовить отчет" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="307" y="510" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TgPfT9b9XquYZ_nCs3HO-96" value="&lt;p&gt;Mechanism:&amp;nbsp;&lt;span&gt;&lt;font style=&quot;&quot;&gt;&lt;font&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;GetStudentStatistics&lt;/font&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(С# Function)&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=2" parent="1" vertex="1">
+        <mxCell id="TgPfT9b9XquYZ_nCs3HO-96" value="&lt;p&gt;Mechanism:&amp;nbsp;&lt;span&gt;&lt;font style=&quot;&quot;&gt;&lt;font&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;GetStudentStatistics&lt;/font&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(С# Function)&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="950" y="350" width="189.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TgPfT9b9XquYZ_nCs3HO-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;entryX=0.879;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontStyle=2" parent="1" source="TgPfT9b9XquYZ_nCs3HO-96" target="TgPfT9b9XquYZ_nCs3HO-88" edge="1">
@@ -473,32 +473,32 @@
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div&gt;&lt;p style=&quot;margin: 0px; text-indent: 0px; vertical-align: middle; direction: rtl;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;GOST type B&amp;quot;; color: rgb(0, 0, 0); direction: ltr; letter-spacing: 0px; line-height: 120%; opacity: 1;&quot;&gt;&lt;i&gt;Утвердил&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" tags="Background" id="xWV5FPVCFwjUvL5lO1H2-68">
-          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=397;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" vertex="1" parent="1">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=397;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=-1;spacingBottom=-1;spacingLeft=-1;spacingRight=-1;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
             <mxGeometry x="637" y="800.5" width="45" height="15.5" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp; Дмитрук Б.Я.&lt;/i&gt;&lt;/font&gt;" tags="Background" id="xWV5FPVCFwjUvL5lO1H2-69">
-          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" vertex="1" parent="1">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
             <mxGeometry x="684" y="733" width="64" height="13" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp;Снисаренко&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;i style=&quot;font-family: &amp;quot;GOST type B&amp;quot;;&quot;&gt;С.В.&amp;nbsp;&lt;/i&gt;" tags="Background" id="xWV5FPVCFwjUvL5lO1H2-70">
-          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" vertex="1" parent="1">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
             <mxGeometry x="684" y="746.5" width="64" height="14.5" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp;Снисаренко&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;i style=&quot;font-family: &amp;quot;GOST type B&amp;quot;;&quot;&gt;С.В.&amp;nbsp;&lt;/i&gt;" tags="Background" id="xWV5FPVCFwjUvL5lO1H2-71">
-          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" vertex="1" parent="1">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
             <mxGeometry x="684" y="761.5" width="64" height="12.5" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp;Комаровская А.Д.&lt;/i&gt;&lt;/font&gt;" tags="Background" id="xWV5FPVCFwjUvL5lO1H2-72">
-          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" vertex="1" parent="1">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
             <mxGeometry x="684" y="787" width="64" height="14.5" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;font face=&quot;GOST type B&quot;&gt;&lt;i&gt;&amp;nbsp;Сиротко С.И.&lt;/i&gt;&lt;/font&gt;" tags="Background" id="xWV5FPVCFwjUvL5lO1H2-73">
-          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" vertex="1" parent="1">
+          <mxCell style="verticalAlign=middle;align=left;overflow=width;vsdxID=400;fillColor=none;gradientColor=none;shape=stencil(nZBLDoAgDERP0z3SIyjew0SURgSD+Lu9kMZoXLhwN9O+tukAlrNpJg1SzDH4QW/URgNYgZTkjA4UkwJUgGXng+6DX1zLfmoymdXo17xh5zmRJ6Q42BWCfc2oJfdAr+Yv+AP9Cb7OJ3H/2JG1HNGz/84klThPVCc=);strokeColor=none;spacingTop=0;spacingBottom=-1;spacingLeft=-1;spacingRight=7;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;fontSize=8;" parent="1" vertex="1">
             <mxGeometry x="684" y="802" width="64" height="14" as="geometry" />
           </mxCell>
         </UserObject>
